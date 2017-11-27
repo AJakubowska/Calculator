@@ -1,0 +1,70 @@
+#container {
+  
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 245px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+
+#monitor {
+  border: 2px solid gray;
+  height: 50px;
+  width: 215px;
+  background-color: #ccffff;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 0.9;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  }
+
+.button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 4px;
+  position: relative;
+}
+
+.number {
+  background-color: #ccffcc;
+}
+
+.operation {
+  background-color: #ffcc99;
+}
+
+.internal {
+  border: 1px solid black;
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pushed {
+  background-color: red;
+  position: absolute;
+}
+
+
+
+
+
+
+
