@@ -1,0 +1,68 @@
+#container {
+  
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 245px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#monitor {
+  box-sizing: border-box;
+  border: 2px solid gray;
+  height: 65px;
+  width: 215px;
+  padding: 15px;
+  background-color: #ccffff;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: right;
+  overflow: hidden;
+}
+
+#C, .button, #equals {
+  background-color: #ffffcc;
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.row {
+  display: flex;
+}
+
+.number {
+  background-color: #ccffcc;
+}
+
+.operation {
+  background-color: #ffcc99;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pushed {
+  position: relative;
+  top: 2px;
+  box-shadow: 2px 2px gray;
+}
+
+
+
+
+
+
+
