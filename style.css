@@ -1,0 +1,82 @@
+#container {
+  
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 245px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#monitor {
+  box-sizing: border-box;
+  border: 2px solid gray;
+  height: 65px;
+  width: 215px;
+  padding: 15px;
+  background-color: #ccffff;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: right;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+}
+
+#C, .button, #equals {
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+#DEL {
+  font-size: 15px;
+  line-height: 2.5;
+}
+
+#DEL, #C {
+  background-color: #f6b769;
+}
+
+.number {
+  background-color: #ccffcc;
+}
+
+.operation {
+  background-color: #ffcc99;
+}
+
+#equals {
+  background-color: #ffffcc;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: 2px 2px gray;
+}
+
+
+
+
+
+
+
+
