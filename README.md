@@ -1,3 +1,5 @@
 # Calculator
 
-A simple calculator written in HTML, CSS, JS and jQuery.
+A simple calculator written in HTML, CSS and jQuery.
+
+https://ajakubowska.github.io/Calculator/
